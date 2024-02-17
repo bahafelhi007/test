@@ -1,8 +1,27 @@
-.unselectable{
-    user-select: none;
-    -webkit-user-drag: none;
+.image_container{
+    position: absolute;
+    left: 49%;
+    top: 32%;
+    transform: translate(-50%, -50%);
+    
 }
-a, label{
-    user-select: none;
-    -webkit-user-drag: none;
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    margin-left: 580px;
+}
+body{
+   
+    background-color: bisque;
+    padding: 0%;
+    margin: 0;
+}
+.sidebar{
+    position: absolute;
+    align-items: left;
+    height: 100vw;
+    width: 50px;
+background-color:aquamarine;    overflow: auto;
 }
