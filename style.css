@@ -1,0 +1,8 @@
+.unselectable{
+    user-select: none;
+    -webkit-user-drag: none;
+}
+a, label{
+    user-select: none;
+    -webkit-user-drag: none;
+}
