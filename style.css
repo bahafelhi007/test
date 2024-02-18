@@ -20,8 +20,12 @@ body{
 }
 .sidebar{
     position: absolute;
-    align-items: left;
     height: 100vw;
     width: 50px;
+    right: 0;ù
 background-color:aquamarine;    overflow: auto;
+}
+.undraggable{
+    /* used to to make the picture undraggable */ 
+ pointer-events: none; 
 }
